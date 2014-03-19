@@ -67,6 +67,7 @@ $(document).ready(function(){
                                 delay: 3,
                                 hidenode: true,
                                 url : "videos/6_mothers.mp4.mp4",
+                                stopothers: true,
                                 children: [{
                                     type: 'empty',
                                     id: 'stayathome',
@@ -433,6 +434,7 @@ $(document).ready(function(){
                                             hidenode: true,
                                             stopothers: true,
                                             url : "videos/6_fathers.mp4.mp4",
+                                            stopothers: true,
                                             children: [{
                                                 type: 'empty',
                                                 id: 'taketest',
@@ -456,6 +458,7 @@ $(document).ready(function(){
                                                         height: 300,
                                                         url: 'videos/take_test.mp4',
                                                         id: 'endVideo',
+                                                        stopothers: true,
                                                         xoffset: 60,
                                                         position: 'center',
                                                         hidenode: true
@@ -486,6 +489,7 @@ $(document).ready(function(){
                                                         width: 300,
                                                         height: 300,
                                                         url: 'videos/roulette.mp4.mp4',
+                                                        stopothers: true,
                                                         id: 'endVideo',
                                                         xoffset: 60,
                                                         position: 'center',
