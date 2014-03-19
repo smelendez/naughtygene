@@ -376,7 +376,7 @@ $(document).ready(function(){
                                     _children : [{
                                         type: 'empty',
                                         taken: true,
-                                        xoffset: 200,
+                                        xoffset: 140,
                                         yoffset: -105,
                                         width: 0,
                                         height: 0,
@@ -384,13 +384,14 @@ $(document).ready(function(){
                                         id: "localschooldot",
                                         children: [{
                                             type: 'video',
-                                            width: 300,
-                                            height: 300,
-                                            url: 'videos/10_zoom_3.mp4.mp4',
-                                            id: 'endVideo',
-                                            xoffset: 60,
+                                            width: 400,
+                                            height: 500,
+                                            url: 'videos/5_app_school.mp4.mp4',
+                                            id: 'localschoolendVideo',
+                                            xoffset: 20,
                                             position: 'center',
-                                            hidenode: true
+                                            hidenode: true,
+                                            stopothers: true
 
 
                                         }]
