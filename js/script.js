@@ -223,7 +223,7 @@ $(document).ready(function(){
                                                     type: 'video',
                                                     width: 300,
                                                     height: 300,
-                                                    url: 'videos/11_zoom_4.mp4.mp4',
+                                                    url: 'videos/gene_therapy.mp4',
                                                     id: 'endVideo',
                                                     xoffset: 60,
                                                     position: 'center',
