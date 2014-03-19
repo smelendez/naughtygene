@@ -1,0 +1,100 @@
+#homeBody {
+    width: 60%;
+    height: 60%;
+    margin: auto;
+}
+#aboutBody {
+
+}
+#homeNav {
+    width: 100%;
+    height: 80px;
+
+}
+#aboutBody {
+    margin: 20%;
+    margin-top: 50px;
+    font-size: 14px;
+    line-height: 20px;
+    background-color: #31a354;
+    padding: 20px;
+    text-align: justify;
+}
+#aboutBody a {
+    color: #ffcc00;
+    text-decoration: none;
+
+}
+#diagnosisVideo {
+    width: 100%;
+    padding-top: 6%;
+
+}
+body {
+    overflow: hidden;
+    background-color: black;
+    font-family: Helvetica, Arial, sans-serif;
+    font-size: 12px;
+    color: white;
+
+}
+#footer {
+    position: absolute;
+    color: white;
+    bottom: 10px;
+    left: 20px;
+}
+a {
+    color: white;
+}
+#footer a {
+    color: #ffcc00;
+    text-decoration: none;
+
+}
+.navLink a {
+    color: #ccc;
+    text-decoration: none;
+}
+#naughtyLink {
+    padding-top: 0px;
+    margin-left: -100px;
+    margin-top: -30px;
+    float: left;
+    font-size: 48px;
+}
+#aboutLink {
+    float: right;
+    font-size: 32px;
+    margin-right: 20px;
+    padding-top: 12px;
+    padding-right: 20px;
+}
+#aboutLink a:hover {
+    color: #ffcc00;
+
+}
+a#naughtyGene {
+    font-size: 48px;
+
+}
+#naughty { color: #ffcc00;
+}
+#scientistLink {
+    float: left;
+}
+#parentLink {
+    float: right;
+}
+span.enterType {
+    color: #ffcc00;
+
+}
+a.doorLink {
+    color: #eee;
+    text-decoration: none;
+    margin-top: 15px;
+    display: inline-block;
+    font-size: 16px;
+
+}

@@ -1,0 +1,124 @@
+* {
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -o-box-sizing: border-box;
+    -ms-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+}
+*::-webkit-scrollbar {
+    width: 0 !important;
+}
+.choiceImage {
+    cursor: pointer;
+
+}
+.node.taken circle {
+    fill: white;
+}
+.node.nottaken circle {
+    fill: #aaa;
+}
+.node.lastnode circle {
+}
+.node.hidenode circle {
+    display: none;
+    opacity :0;
+
+}
+.node circle {
+    cursor: pointer;
+
+}
+
+path.link {
+    fill: none;
+    stroke: white;
+    stroke-width: 1.5px;
+}
+path.link.hideedge {
+    display: none;
+    opacity: 0;
+
+}
+path.link.nottaken {
+    stroke-dasharray: 1,2;
+
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Helvetica, Arial, sans-serif;
+    background-color: black;
+    width: 2500px;
+}
+#constellation {
+    width: 100%;
+    top: 0;
+    bottom: 0;
+    position: absolute;;
+    background-color: black;
+}
+.choice {
+    color: white;
+    font-size: 24px;
+    width: 100%;
+    height: 50%;
+    padding: 20px;
+    width: 100%;
+    background-color: aqua;
+    cursor: pointer;
+
+}
+#constellation svg {
+    position: absolute;
+    z-index: 15;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    height: 100%;
+}
+#popupimg {
+    position: absolute;
+    z-index: 0;
+    cursor: pointer;
+}
+#introVideo {
+    position: absolute;
+    top: 40%;
+    z-index: 10;
+    left: 10px;
+
+}
+.textNode {
+    color: white;
+    text-transform: uppercase;
+    font-family: Helvetica, arial,sans-serif;
+    padding: 10px;
+    border: solid 2px white;
+    width: 200px;
+    text-align: center;
+    z-index: 30;
+    background-color: black;
+    cursor: pointer;
+}
+video {
+
+}
+#leadVideo {
+
+}
+#funding {
+    z-index: 15;
+
+}
+.emptyNode {
+    z-index: 30;
+    background-color: black;
+    opacity :0;
+    cursor: pointer;
+}
+#momphone {
+    z-index: 20;
+
+}
