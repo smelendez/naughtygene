@@ -16,7 +16,7 @@
     margin-top: 50px;
     font-size: 14px;
     line-height: 20px;
-    background-color: #31a354;
+    background-color: #5786c1;
     padding: 20px;
     text-align: justify;
 }
@@ -48,7 +48,7 @@ a {
     color: white;
 }
 #footer a {
-    color: #ffcc00;
+    color: #5786c1;
     text-decoration: none;
 
 }
@@ -70,15 +70,15 @@ a {
     padding-top: 12px;
     padding-right: 20px;
 }
-#aboutLink a:hover {
-    color: #ffcc00;
+#aboutLink a {
+    color: #5786c1;
 
 }
 a#naughtyGene {
     font-size: 48px;
 
 }
-#naughty { color: #ffcc00;
+#naughty { color: #5786c1;
 }
 #scientistLink {
     float: left;
@@ -87,7 +87,7 @@ a#naughtyGene {
     float: right;
 }
 span.enterType {
-    color: #ffcc00;
+    color: #5786c1;
 
 }
 a.doorLink {
